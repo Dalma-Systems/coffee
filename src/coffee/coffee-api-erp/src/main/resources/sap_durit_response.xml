@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n0:ZFTS_PLANResponse xmlns:n0="urn:sap-com:document:sap:rfc:functions">
+	<EX_ERRO>OK</EX_ERRO>
+	<TBL_PLANODIARIO>
+		<item>
+			<AGRUPADOR>0000012</AGRUPADOR>
+			<DEPOSITO>0075</DEPOSITO>
+			<TXTDEPOSITO>Arm.Autom. Graus</TXTDEPOSITO>
+			<ESTACAO>0161</ESTACAO>
+			<TXTESTACAO>K50_1</TXTESTACAO>
+			<ORDEM>000001139832</ORDEM>
+			<MATERIAL>000000000001001679</MATERIAL>
+			<TXTMATERIAL>GD40 C/ PARAFINA</TXTMATERIAL>
+			<LOTE>H0003</LOTE>
+			<DIA>2020-09-22</DIA>
+			<HORA>17:02:28</HORA>
+			<QUANTIDADE>15.198</QUANTIDADE>
+			<UNIDADE>KG</UNIDADE>
+			<ESTADO/>
+		</item>
+        <item>
+            <AGRUPADOR>0000012</AGRUPADOR>
+            <DEPOSITO>0075</DEPOSITO>
+            <TXTDEPOSITO>Arm.Autom. Graus</TXTDEPOSITO>
+            <ESTACAO>0161</ESTACAO>
+            <TXTESTACAO>K50_1</TXTESTACAO>
+            <ORDEM>000001139833</ORDEM>
+            <MATERIAL>000000000001001611</MATERIAL>
+            <TXTMATERIAL>GD10N C/ PARAFINA</TXTMATERIAL>
+            <LOTE>G0104</LOTE>
+            <DIA>2020-09-22</DIA>
+            <HORA>17:00:36</HORA>
+            <QUANTIDADE>7.236</QUANTIDADE>
+            <UNIDADE>KG</UNIDADE>
+            <ESTADO/>
+        </item>
+        <item>
+            <AGRUPADOR>0000012</AGRUPADOR>
+            <DEPOSITO>0007</DEPOSITO>
+            <TXTDEPOSITO>Armazém de Graus</TXTDEPOSITO>
+            <ESTACAO>0161</ESTACAO>
+            <TXTESTACAO>K50_1</TXTESTACAO>
+            <ORDEM>000001139833</ORDEM>
+            <MATERIAL>000000000001001611</MATERIAL>
+            <TXTMATERIAL>GD10N C/ PARAFINA</TXTMATERIAL>
+            <LOTE>M0001</LOTE>
+            <DIA>2020-09-22</DIA>
+            <HORA>17:01:40</HORA>
+            <QUANTIDADE>7.236</QUANTIDADE>
+            <UNIDADE>KG</UNIDADE>
+            <ESTADO/>
+        </item>
+	</TBL_PLANODIARIO>
+</n0:ZFTS_PLANResponse>
