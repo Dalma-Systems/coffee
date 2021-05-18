@@ -12,8 +12,7 @@ This component has the responsibility to integrate information from ERPs.
 This project is part of [DIH^2](http://www.dih-squared.eu/). For more information check the RAMP Catalogue entry for the
 [components](https://github.com/ramp-eu).
 
-This project is part of [FIWARE](https://www.fiware.org/). For more information check the FIWARE Catalogue entry for
-[<chapter>](https://github.com/Fiware/catalogue/tree/master/<chapter>).
+This project is part of [FIWARE](https://www.fiware.org/).
 
 ## Contents
 
@@ -33,10 +32,10 @@ Fiware-Enabled Autonomous Transport System (FEATS) is a project whose scope is a
 Information about how to install the components of FEATS can be found in the corresponding section of the Read The Docs [page](https://feats-dih2.readthedocs.io/en/latest/).
 
 ## API Overview
-An example of the usage of the system can be found in the corresponding section of the Read The Docs [page](https://feats-dih2.readthedocs.io/en/latest/).
+An example of the usage of the system can be found in the corresponding section of the Read The Docs [page](https://coffee-dih2.readthedocs.io/en/latest/).
 
 ## Documentation
-All documentation is available in `docs` folder. Check [documentation index](docs/index.md) to get all the information about the system architecture and API, and also about how to install and test the application.
+All documentation is available in the Read The Docs [page](https://coffee-dih2.readthedocs.io/en/latest/) -- get all the information about the system architecture and API, and also about how to install and test the application.
 
 ## License
-[Apache](LICENSE) © 2021
+[Apache](LICENSE) © 2021 Dalma Systems

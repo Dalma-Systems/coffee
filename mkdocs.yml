@@ -1,9 +1,9 @@
 site_name: CoFFEE for FEATS
-repo_url: https://github.com/ramp-eu/CoFFEE.git
+repo_url: https://github.com/Dalma-Systems/coffee.git
 site_description: FEATS CoFFEE Documentation
-docs_dir: docs
+#docs_dir: docs
 theme: readthedocs
-pages:
+nav:
   - Home: 'index.md'
   - 'User & Programmers Manual':
     - 'Architecture' : 'architecture.md'
