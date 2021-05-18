@@ -4,7 +4,7 @@ CoFFEE is a component of FEATS system, and his main goal is integrate with ERPs.
 CoFFEE integrate work orders instructions from ERPs, convert them into internal business models, and stores all information in Orion Context Broker.
 The following picture shows the architecture of all FEATS system, where CoFFEE is integrated:
 
-<img src="images/feats.png" width="1024" height="600"/>
+![FEATS Architecture](images/feats.png)
 
 ## FEATS Components Architecture
 
