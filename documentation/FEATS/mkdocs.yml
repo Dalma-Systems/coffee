@@ -1,0 +1,14 @@
+site_name: CoFFEE for FEATS
+repo_url: https://github.com/ramp-eu/CoFFEE.git
+site_description: FEATS CoFFEE Documentation
+docs_dir: docs
+theme: readthedocs
+pages:
+  - Home: 'index.md'
+  - 'User & Programmers Manual':
+    - 'Architecture' : 'architecture.md'
+    - 'API' : 'api.md'
+  - 'Installation & Administration Manual': 
+    - 'Installation Guide': 'installationguide.md'
+    - 'Getting Started' : 'getting-started.md'
+  - 'User Guide': 'usermanual.md'

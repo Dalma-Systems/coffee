@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n0:ZFTS_PLANResponse xmlns:n0="urn:sap-com:document:sap:rfc:functions">
+  <exerro>OK</exerro>
+  <tblplanodiario />
+</n0:ZFTS_PLANResponse>

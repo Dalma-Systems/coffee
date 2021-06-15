@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n0:ZFTS_PLANResponse xmlns:n0="urn:sap-com:document:sap:rfc:functions">
+    <EX_ERRO>OK</EX_ERRO>
+    <TBL_PLANODIARIO>
+        <item>
+            <AGRUPADOR>0000001</AGRUPADOR>
+            <DEPOSITO>0001</DEPOSITO>
+            <TXTDEPOSITO>Warehouse 1</TXTDEPOSITO>
+            <ESTACAO>0001</ESTACAO>
+            <TXTESTACAO>Work Station 1</TXTESTACAO>
+            <ORDEM>000000000001</ORDEM>
+            <MATERIAL>000000000000000001</MATERIAL>
+            <TXTMATERIAL>Material 1</TXTMATERIAL>
+            <LOTE>Batch 1</LOTE>
+            <DIA>2020-09-22</DIA>
+            <HORA>17:02:28</HORA>
+            <QUANTIDADE>15.198</QUANTIDADE>
+            <UNIDADE>KG</UNIDADE>
+            <ESTADO/>
+        </item>
+        <item>
+            <AGRUPADOR>0000001</AGRUPADOR>
+            <DEPOSITO>0001</DEPOSITO>
+            <TXTDEPOSITO>Warehouse 1</TXTDEPOSITO>
+            <ESTACAO>0001</ESTACAO>
+            <TXTESTACAO>Work Station 1</TXTESTACAO>
+            <ORDEM>000000000002</ORDEM>
+            <MATERIAL>000000000000000001</MATERIAL>
+            <TXTMATERIAL>Material 1</TXTMATERIAL>
+            <LOTE>Batch 2</LOTE>
+            <DIA>2020-09-22</DIA>
+            <HORA>17:00:36</HORA>
+            <QUANTIDADE>7.236</QUANTIDADE>
+            <UNIDADE>KG</UNIDADE>
+            <ESTADO/>
+        </item>
+        <item>
+            <AGRUPADOR>0000001</AGRUPADOR>
+            <DEPOSITO>0002</DEPOSITO>
+            <TXTDEPOSITO>Warehouse 2</TXTDEPOSITO>
+            <ESTACAO>0001</ESTACAO>
+            <TXTESTACAO>00001</TXTESTACAO>
+            <ORDEM>000000000003</ORDEM>
+            <MATERIAL>000000000000000002</MATERIAL>
+            <TXTMATERIAL>Material 2</TXTMATERIAL>
+            <LOTE>Batch 3</LOTE>
+            <DIA>2020-09-22</DIA>
+            <HORA>17:01:40</HORA>
+            <QUANTIDADE>7.236</QUANTIDADE>
+            <UNIDADE>KG</UNIDADE>
+            <ESTADO/>
+        </item>
+    </TBL_PLANODIARIO>
+</n0:ZFTS_PLANResponse>

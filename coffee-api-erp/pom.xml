@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.dalma.coffee</groupId>
+		<artifactId>dalma-coffee</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>dalma-coffee-erp</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.parent.groupId}</groupId>
+			<artifactId>${project.parent.artifactId}-base</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+        <dependency>
+            <groupId>com.dalma.contract</groupId>
+            <artifactId>dalma-contract-workorder</artifactId>
+        </dependency>
+		<!-- plugins -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+		</dependency>
+		<!-- soap -->
+		<dependency>
+			<groupId>org.springframework.ws</groupId>
+			<artifactId>spring-ws-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.messaging.saaj</groupId>
+			<artifactId>saaj-impl</artifactId>
+		</dependency>
+		<!-- tests -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- Uncomment to generate classes based on WSDL if something change in 
+				WSDL <plugin> <groupId>org.jvnet.jaxb2.maven2</groupId> <artifactId>maven-jaxb2-plugin</artifactId> 
+				<version>0.14.0</version> <executions> <execution> <goals> <goal>generate</goal> 
+				</goals> </execution> </executions> <configuration> <schemaLanguage>WSDL</schemaLanguage> 
+				<generateDirectory>${project.basedir}/src/main/java</generateDirectory> <generatePackage>com.dalma.coffee.erp.soap.client.gen</generatePackage> 
+				<schemaDirectory>${project.basedir}/src/main/resources</schemaDirectory> 
+				<schemaIncludes> <include>sap_durit.wsdl</include> </schemaIncludes> <episodeFile>${project.basedir}/src/main/resources/META-INF/sun-jaxb.episode</episodeFile> 
+				</configuration> </plugin> -->
+		</plugins>
+	</build>
+</project>
